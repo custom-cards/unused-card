@@ -18,6 +18,22 @@ A simple card that shows your unused entities
 | type | string | **Required** | `custom:unused-card`
 | name | string | **Optional** | Card name | `Unused Entities`
 
+## Install
+
+*This card is available in [HACS](https://github.com/custom-components/hacs) (Home Assistant Community Store)*
+
+### Simple install
+
+1. Download and copy `unused-card.js` from the [dist](https://github.com/custom-cards/unused-card/dist) into your `config/www` directory.
+
+2. Add a reference to `mini-media-player-bundle.js` inside your `ui-lovelace.yaml`.
+
+  ```yaml
+  resources:
+    - url: /local/unused-card.js
+      type: module
+  ```
+
 [Troubleshooting](https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins)
 
 [commits-shield]: https://img.shields.io/github/commit-activity/y/custom-cards/unused-card.svg?style=for-the-badge
