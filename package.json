@@ -16,26 +16,26 @@
     "license": "MIT",
     "dependencies": {
         "custom-card-helpers": "^1.0.8",
-        "home-assistant-js-websocket": "^3.4.0",
+        "home-assistant-js-websocket": "^4.3.1",
         "lit-element": "^2.0.1"
     },
     "devDependencies": {
         "@babel/core": "^7.4.3",
         "@babel/plugin-proposal-class-properties": "^7.4.0",
         "@babel/plugin-proposal-decorators": "^7.4.0",
-        "@typescript-eslint/eslint-plugin": "^1.4.2",
-        "@typescript-eslint/parser": "^1.4.1",
-        "eslint": "^5.14.1",
-        "eslint-config-airbnb-base": "^13.1.0",
+        "@typescript-eslint/eslint-plugin": "^2.0.0",
+        "@typescript-eslint/parser": "^2.0.0",
+        "eslint": "^6.2.2",
+        "eslint-config-airbnb-base": "^14.0.0",
         "eslint-plugin-import": "^2.16.0",
         "prettier": "^1.16.4",
-        "rollup": "^1.2.3",
+        "rollup": "^1.20.3",
         "rollup-plugin-babel": "^4.3.2",
-        "rollup-plugin-node-resolve": "^4.0.1",
-        "rollup-plugin-terser": "^4.0.4",
-        "rollup-plugin-typescript2": "^0.20.1",
+        "rollup-plugin-node-resolve": "^5.2.0",
+        "rollup-plugin-terser": "^5.1.1",
+        "rollup-plugin-typescript2": "^0.24.0",
         "rollup-plugin-uglify": "^6.0.2",
-        "typescript": "^3.3.3333"
+        "typescript": "^3.6.2"
     },
     "scripts": {
         "start": "rollup -c --watch",
