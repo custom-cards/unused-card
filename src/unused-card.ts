@@ -47,11 +47,12 @@ class UnusedCard extends LitElement {
     return html`
       <ha-card
         .header=${this._config.name ? this._config.name : "Unused Entities"}
+        
       >
         ${entities.map(
           entity =>
             html`
-              <div>
+              <div style="padding: 10px 20px;">
                 ${entity}
               </div>
             `
