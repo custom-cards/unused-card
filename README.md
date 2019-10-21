@@ -1,4 +1,4 @@
-# Unused Card
+# Unused Card by [@iantrich](https://www.github.com/iantrich)
 
 A simple card that shows your unused entities
 
