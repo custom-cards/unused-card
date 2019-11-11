@@ -26,7 +26,7 @@ A simple card that shows your unused entities
 
 1. Download and copy `unused-card.js` from the [dist](https://github.com/custom-cards/unused-card/dist) into your `config/www` directory.
 
-2. Add a reference to `mini-media-player-bundle.js` inside your `ui-lovelace.yaml`.
+2. Add a reference to `unused-card.js` inside your `ui-lovelace.yaml`.
 
   ```yaml
   resources:
